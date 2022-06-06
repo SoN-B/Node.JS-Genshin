@@ -1,0 +1,67 @@
+body {
+	background:#222;
+	display:flex;
+	flex-flow:column wrap;
+	align-items:center;
+	justify-content:flex-start;
+}
+
+:root {
+	
+}
+
+.anime-grill-center {
+	width:750px;
+	margin-top:25px;
+	height:750px;
+	overflow:hidden;
+	display:flex;
+	align-items:flex-start;
+	justify-content:center;
+	
+	background:url(https://i.ibb.co/KhPyknY/mona-genshin-colorfill.png);
+	background-size:cover;
+	position:relative;
+	z-index:0;
+}
+
+.anime-grill-offcenter {
+	position:absolute;
+	margin-top:25px;
+	width:750px;
+	height:750px;
+	overflow:hidden;
+	display:flex;
+	align-items:flex-start;
+	justify-content:center;
+	background:url(https://i.ibb.co/ckwG4CX/mona-genshin-colorfill-white.png);
+	background-size:cover;
+	margin-left:75px;
+	z-index:-1;
+	filter:brightness(25%);
+}
+
+.text-lines {
+	position:absolute;
+	top:450px;
+	font:900 100px/80px montserrat;
+	text-transform:uppercase;
+	color:transparent;
+	-webkit-text-stroke:1px #eee;
+	
+}
+
+.text-lines .line-2 {
+	color:#eee;
+	-webkit-text-stroke:0px #eee;
+}
+
+.site-body {
+	width:1150px;
+	background:#1a1a1a;
+	padding:50px;
+	font:600 12px montserrat;
+	color:#777;
+	border-radius:5px;
+	box-shadow:0px 0px 10px rgba(0,0,0,.15);
+}

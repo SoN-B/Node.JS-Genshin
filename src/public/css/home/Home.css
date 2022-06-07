@@ -1,5 +1,5 @@
 body {
-	background:#222;
+	background:rgb(44, 44, 44);
 	display:flex;
 	flex-flow:column wrap;
 	align-items:center;
@@ -11,7 +11,7 @@ body {
 }
 
 .anime-grill-center {
-	width:750px;
+	width:950px;
 	margin-top:25px;
 	height:750px;
 	overflow:hidden;
@@ -19,26 +19,28 @@ body {
 	align-items:flex-start;
 	justify-content:center;
 	
-	background:url(https://i.ibb.co/KhPyknY/mona-genshin-colorfill.png);
+	background:url(https://i.ibb.co/wL04NT8/img-fec8c9b21607582713-removebg.png);
 	background-size:cover;
 	position:relative;
+    filter:brightness(85%);
 	z-index:0;
 }
 
+
 .anime-grill-offcenter {
 	position:absolute;
-	margin-top:25px;
-	width:750px;
+	margin-top:40px;
+	width:950px;
 	height:750px;
 	overflow:hidden;
 	display:flex;
 	align-items:flex-start;
 	justify-content:center;
-	background:url(https://i.ibb.co/ckwG4CX/mona-genshin-colorfill-white.png);
+	background:url(https://i.ibb.co/wL04NT8/img-fec8c9b21607582713-removebg.png);
 	background-size:cover;
-	margin-left:75px;
+	margin-left:30px;
 	z-index:-1;
-	filter:brightness(25%);
+	filter:brightness(10%);
 }
 
 .text-lines {
@@ -47,7 +49,7 @@ body {
 	font:900 100px/80px montserrat;
 	text-transform:uppercase;
 	color:transparent;
-	-webkit-text-stroke:1px #eee;
+	-webkit-text-stroke:1px rgb(119, 250, 141);
 	
 }
 

@@ -28,7 +28,7 @@ body {
 
 .anime-grill-offcenter {
 	position:absolute;
-	margin-top:40px;
+	margin-top:-190px;
 	width:950px;
 	height:750px;
 	overflow:hidden;
@@ -39,7 +39,7 @@ body {
 	background-size:cover;
 	margin-left:30px;
 	z-index:-1;
-	filter:brightness(10%) blur(4px);
+	filter:brightness(5%) blur(3px);
 }
 
 .text-lines {
@@ -58,10 +58,10 @@ body {
 }
 
 .site-body {
-	width:1150px;
+	width:1100px;
 	background:#1a1a1a;
-	padding:50px;
-	font:600 12px montserrat;
+	padding:55px;
+	font:1500 12px montserrat;
 	color:#777;
 	border-radius:5px;
 	box-shadow:0px 0px 10px rgba(0,0,0,.15);

@@ -16,8 +16,8 @@ body {
 }
 
 .anime-grill-center {
-    position:relative;
-    margin-top:25px;
+  position:relative;
+  margin-top:25px;
   
 	width:950px;
 	height:750px;
@@ -30,34 +30,34 @@ body {
 	background:url(https://i.ibb.co/wL04NT8/img-fec8c9b21607582713-removebg.png);
 	background-size:cover;
   
-    filter:brightness(85%) contrast(120%);
+  filter:brightness(85%) contrast(120%);
 	
-    z-index:0;
+  z-index:0;
 }
 
 .anime-grill-offcenter {
-	position:absolute;
-	margin-top:-190px;
+  position:absolute;
+  margin-top:-190px;
     margin-left:30px;
   
-	width:950px;
-	height:750px;
+  width:950px;
+  height:750px;
   
-	overflow:hidden;
-	display:flex;
-	align-items:flex-start;
-	justify-content:center;
+  overflow:hidden;
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
   
-	background:url(https://i.ibb.co/wL04NT8/img-fec8c9b21607582713-removebg.png);
-	background-size:cover;
+  background:url(https://i.ibb.co/wL04NT8/img-fec8c9b21607582713-removebg.png);
+  background-size:cover;
   
-	filter:brightness(5%) blur(3px);
+  filter:brightness(5%) blur(3px);
   
-    z-index:-1;
+  z-index:-1;
 }
 
 .text-lines {
-    position:absolute;
+  position:absolute;
   
 	top:450px;
 	font:800 100px/80px montserrat;
@@ -70,7 +70,7 @@ body {
 .text-lines .line-2 {
 	color:#eee;
 	-webkit-text-stroke:0px #eee;
-    text-shadow: 2px 3px 2px gray;
+  text-shadow: 2px 3px 2px gray;
 }
 
 .site-body {

@@ -23,10 +23,8 @@
     <div class="line"></div>
   </div>
 
-  <div class="anime-grill-center">
-  </div>
-  <div class="anime-grill-offcenter">
-  </div>
+  <div class="anime-grill-center"></div>
+  <div class="anime-grill-offcenter"></div>
 
   <div class="text-lines">
     <div class="line-1">SoNB's</div>
@@ -35,20 +33,32 @@
   </div>
 
   <div class="site-body effect8">
-    <form>
-      <div class="buttons">
-        <h1>아직 개발중인<code>버튼</code></h1>
+    <div class="buttons">
+      <h1>아직 개발중인<code>버튼</code></h1>
+
+      <form class="button1" method="get" action="/chractor">
+        <!-- 첫번째는 기본 /chractor 주소 이동 -->
         <button class="fill">
-          <a href="http://localhost:3000/chractor">내 캐릭터</a>
+          내 캐릭터
         </button>
-        <button class="pulse">Pulse</button>
-        <button class="close">Close</button>
-        <button class="raise">Raise</button>
-        <!-- <button class="up">Fill Up</button>
-        <button class="slide">Slide</button>
-        <button class="offset">Offset</button> -->
-      </div>
-    </form>
+
+        <button class="pulse" onclick="return submit1(this.form);">
+          Pulse
+        </button>
+
+        <button class="close" onclick="return submit2(this.form);">
+          Close
+        </button>
+
+        <button class="raise" onclick="return submit3(this.form);">
+          Raise
+        </button>
+      </form>
+
+      <!-- <button class="up">Fill Up</button>
+      <button class="slide">Slide</button>
+      <button class="offset">Offset</button> -->
+    </div>
   </div>
 </body>
 

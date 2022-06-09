@@ -1,11 +1,22 @@
 "use strict";
 
-Btn = document.querySelector("#button1");
+function submit1(form) 
+{
+    form.action = ''; //이제부터 만들 주소
+    form.submit();
+    return true;
+}
 
-Btn.addEventListener("click",chractor);
+function submit2(form) 
+{
+    form.action = ''; //이제부터 만들 주소
+    form.submit();
+    return true;
+}
 
-function chractor() {
-    fetch("/chractor", {
-        method: "GET",
-    });
+function submit3(form) 
+{
+    form.action = ''; //이제부터 만들 주소
+    form.submit();
+    return true;
 }

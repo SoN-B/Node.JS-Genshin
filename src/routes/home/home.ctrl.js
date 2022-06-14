@@ -6,7 +6,10 @@ const output = {
     },
     chractor : (req, res) => {
         res.render("home/chractor.ejs");
-    }
+    },
+    loading : (rea, res) => {
+        res.render("home/loading.ejs");
+    },
 };
 
 module.exports = {

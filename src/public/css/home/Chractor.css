@@ -126,6 +126,27 @@ h1+p {
   filter: hue-rotate(1deg) saturate(500%);
 }
 
+.container--4 {
+  background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 0%, .9)), url("https://i.ibb.co/6tn5Whk/Element-Electro.png");
+  background-position: var(--bX) var(--bY);
+  background-size: 33rem auto;
+  filter: hue-rotate(1deg) saturate(500%);
+}
+
+.container--5 {
+  background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 0%, .9)), url("https://i.ibb.co/jZswXQ4/Element-Cryo.png");
+  background-position: var(--bX) var(--bY);
+  background-size: 35rem auto;
+  filter: hue-rotate(1deg) saturate(500%);
+}
+
+.container--6 {
+  background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 0%, .9)), url("https://i.ibb.co/KN2YpyM/Element-Geo.png");
+  background-position: var(--bX) var(--bY);
+  background-size: 33rem auto;
+  filter: hue-rotate(1deg) saturate(250%);
+}
+
 .container p {
   color: hsla(0, 0%, 100%, .6);
   font-size: 2.2rem;

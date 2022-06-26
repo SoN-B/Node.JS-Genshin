@@ -6,7 +6,15 @@
 // Tilt.js: https://gijsroge.github.io/tilt.js/
 // Andy Merskin's parallax depth cards pen: https://codepen.io/andymerskin/full/XNMWvQ/
 
-// Thank You for Viewing
+// Thank You for Viewin
+
+function submit1(form) 
+{
+    form.action = '/'; // 불속성
+    form.submit();
+    return true;
+}
+
 
 class parallaxTiltEffect {
 

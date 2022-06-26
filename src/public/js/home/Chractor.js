@@ -10,7 +10,7 @@
 
 function submit1(form) 
 {
-    form.action = '/'; // 불속성
+    form.action = '/chractor/pyro'; // 불속성
     form.submit();
     return true;
 }

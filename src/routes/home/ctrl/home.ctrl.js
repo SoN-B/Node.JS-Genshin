@@ -2,10 +2,10 @@
 
 const output = {
     home : (req, res) => {
-        res.render("home/Home.ejs");
+        res.render("home/index.ejs");
     },
     chractor : (req, res) => {
-        res.render("home/chractor.ejs");
+        res.render("chractor/index.ejs");
     },
 };
 

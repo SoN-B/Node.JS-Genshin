@@ -15,7 +15,6 @@ function submit1(form)
     return true;
 }
 
-
 class parallaxTiltEffect {
 
     constructor({element, tiltEffect}) {

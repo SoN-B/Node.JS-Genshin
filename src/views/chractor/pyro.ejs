@@ -41,26 +41,26 @@
                                 <div class="collapse multi-collapse" id="multiCollapseExample1">
                                     <div class="card card-body">
                                         <!-- 여기서 부터 입력란 -->
-                                        <form>
+                                        <form action="/chractor/pyro" method="post">
                                             <div class="input-group input-group-sm mb-3">
-                                                <span class="input-group-text" id="inputGroup-sizing-sm">체력</span>
-                                                <input type="text" class="form-control"
+                                                <span class="input-group-text">체력</span>
+                                                <input type="text" name="MainOptions" class="form-control"
                                                     aria-label="Sizing example input"
                                                     aria-describedby="inputGroup-sizing-sm">
                                             </div>
                                             <div class="input-group input-group-sm mb-3">
-                                                <span class="input-group-text" id="inputGroup-sizing-sm">치확</span>
-                                                <input type="text" class="form-control"
+                                                <span class="input-group-text">치확</span>
+                                                <input type="text" name="CriticalHitProbability" class="form-control"
                                                     aria-label="Sizing example input"
                                                     aria-describedby="inputGroup-sizing-sm">
                                             </div>
                                             <div class="input-group input-group-sm mb-3">
-                                                <span class="input-group-text" id="inputGroup-sizing-sm">치피</span>
-                                                <input type="text" class="form-control"
+                                                <span class="input-group-text">치피</span>
+                                                <input type="text" name="FatalDamage" class="form-control"
                                                     aria-label="Sizing example input"
                                                     aria-describedby="inputGroup-sizing-sm">
                                             </div>
-                                            <button type="button" class="btn btn-success">입력</button>
+                                            <button type="submit" class="btn btn-success">입력</button>
                                         </form>
                                     </div>
                                 </div>
@@ -71,7 +71,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <!-- <div class="col">
                 <div class="card" style="width: 21rem; margin-top: 50px;">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
@@ -243,7 +243,7 @@
 
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </div>
